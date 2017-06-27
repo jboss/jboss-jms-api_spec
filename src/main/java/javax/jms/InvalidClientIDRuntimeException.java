@@ -52,7 +52,12 @@ package javax.jms;
  **/
 
 public class InvalidClientIDRuntimeException extends JMSRuntimeException {
-	
+
+	/**
+	 * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 2.0 version
+	 */
+	private static final long serialVersionUID = -1997236208457896631L;
+
 	/**
 	 * Constructs a {@code InvalidClientIDRuntimeException} with the specified detail message
 	 * 

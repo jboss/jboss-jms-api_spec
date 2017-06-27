@@ -54,7 +54,12 @@ package javax.jms;
 
 public class ResourceAllocationRuntimeException extends JMSRuntimeException {
 
-  /** Constructs a {@code ResourceAllocationRuntimeException} with the specified 
+	/**
+	 * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 2.0 version
+	 */
+	private static final long serialVersionUID = -1306897975610715374L;
+
+	/** Constructs a {@code ResourceAllocationRuntimeException} with the specified
    *  reason and error code.
    *
    *  @param  reason        a description of the exception

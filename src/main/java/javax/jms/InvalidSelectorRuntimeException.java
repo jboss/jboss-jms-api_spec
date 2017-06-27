@@ -53,6 +53,11 @@ package javax.jms;
 public class InvalidSelectorRuntimeException extends JMSRuntimeException {
 
 	/**
+	 * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 2.0 version
+	 */
+	private static final long serialVersionUID = 1974783946275023548L;
+
+	/**
 	 * Constructs a {@code InvalidSelectorRuntimeException} with the specified detail message
 	 * 
 	 * @param detailMessage

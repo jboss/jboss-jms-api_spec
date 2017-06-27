@@ -55,6 +55,11 @@ package javax.jms;
 public class JMSRuntimeException extends RuntimeException {
 
 	/**
+	 * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 1.1 version
+	 */
+	private static final long serialVersionUID = -5204332229969809982L;
+
+	/**
 	 * Provider-specific error code.
 	 **/
 	private String errorCode=null;

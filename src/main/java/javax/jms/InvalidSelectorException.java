@@ -52,7 +52,12 @@ package javax.jms;
 
 public class InvalidSelectorException extends JMSException {
 
-  /** Constructs an {@code InvalidSelectorException} with the specified 
+  /**
+   * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 1.1 version
+   */
+  private static final long serialVersionUID =  6223038613086963841L;
+
+  /** Constructs an {@code InvalidSelectorException} with the specified
    *  reason and error code.
    *
    *  @param  reason        a description of the exception

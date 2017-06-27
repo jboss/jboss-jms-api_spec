@@ -58,6 +58,11 @@ package javax.jms;
 public class MessageFormatRuntimeException extends JMSRuntimeException {
 
 	/**
+	 * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 2.0 version
+	 */
+	private static final long serialVersionUID = 416918643772467720L;
+
+	/**
 	 * Constructs a {@code MessageFormatRuntimeException} with the specified detail message
 	 * 
 	 * @param detailMessage
