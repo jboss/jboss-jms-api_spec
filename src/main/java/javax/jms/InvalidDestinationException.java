@@ -52,7 +52,12 @@ package javax.jms;
 
 public class InvalidDestinationException extends JMSException {
 
-  /** Constructs an {@code InvalidDestinationException} with the specified 
+  /**
+   * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 1.1 version
+   */
+  private static final long serialVersionUID = -8588063794606036755L;
+
+  /** Constructs an {@code InvalidDestinationException} with the specified
    *  reason and error code.
    *
    *  @param  reason        a description of the exception

@@ -52,7 +52,12 @@ package javax.jms;
 
 public class TransactionRolledBackException extends JMSException {
 
-  /** Constructs a {@code TransactionRolledBackException} with the 
+  /**
+   * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 1.1 version
+   */
+  private static final long serialVersionUID = 9157976009672865857L;
+
+  /** Constructs a {@code TransactionRolledBackException} with the
    *  specified reason and error code.
    *
    *  @param  reason        a description of the exception

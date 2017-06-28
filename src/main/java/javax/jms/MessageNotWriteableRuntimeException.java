@@ -53,6 +53,11 @@ package javax.jms;
 public class MessageNotWriteableRuntimeException extends JMSRuntimeException {
 
 	/**
+	 * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 2.0 version
+	 */
+	private static final long serialVersionUID = 6075922984499850209L;
+
+	/**
 	 * Constructs a {@code MessageNotWriteableRuntimeException} with the
 	 * specified reason and error code.
 	 * 

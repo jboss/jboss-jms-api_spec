@@ -52,7 +52,12 @@ package javax.jms;
 
 public class InvalidClientIDException extends JMSException {
 
-  /** Constructs an {@code InvalidClientIDException} with the specified 
+  /**
+   * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 1.1 version
+   */
+  private static final long serialVersionUID = 2410181719763491702L;
+
+  /** Constructs an {@code InvalidClientIDException} with the specified
    *  reason and error code.
    *
    *  @param  reason        a description of the exception

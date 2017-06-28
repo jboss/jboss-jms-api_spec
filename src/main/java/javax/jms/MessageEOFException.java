@@ -52,7 +52,12 @@ package javax.jms;
 
 public class MessageEOFException extends JMSException {
 
-  /** Constructs a {@code MessageEOFException} with the specified 
+  /**
+   * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 1.1 version
+   */
+  private static final long serialVersionUID = -4829621000056590895L;
+
+  /** Constructs a {@code MessageEOFException} with the specified
    *  reason and error code.
    *
    *  @param  reason        a description of the exception

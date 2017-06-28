@@ -53,6 +53,11 @@ package javax.jms;
 public class TransactionInProgressRuntimeException extends JMSRuntimeException {
 
 	/**
+	 * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 2.0 version
+	 */
+	private static final long serialVersionUID = -916492460069513065L;
+
+	/**
 	 * Constructs a {@code TransactionInProgressRuntimeException} with the
 	 * specified detail message
 	 * 

@@ -52,7 +52,12 @@ package javax.jms;
  **/
 
 public class JMSSecurityRuntimeException extends JMSRuntimeException {
-	
+
+	/**
+	 * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 2.0 version
+	 */
+	private static final long serialVersionUID = 1020149469192845616L;
+
 	/**
 	 * Constructs a {@code JMSSecurityRuntimeException} with the specified detail message
 	 * 

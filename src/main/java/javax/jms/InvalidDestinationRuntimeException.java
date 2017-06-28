@@ -52,6 +52,11 @@ package javax.jms;
 public class InvalidDestinationRuntimeException extends JMSRuntimeException {
 
 	/**
+	 * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 2.0 version
+	 */
+	private static final long serialVersionUID = 2765276997130843763L;
+
+	/**
 	 * Constructs a {@code InvalidDestinationRuntimeException} with the specified detail message
 	 * 
 	 * @param detailMessage

@@ -54,6 +54,11 @@ package javax.jms;
 public class IllegalStateRuntimeException extends JMSRuntimeException {
 
 	/**
+	 * Explicitly set serialVersionUID to be the same as the implicit serialVersionUID of the JMS 2.0 version
+	 */
+	private static final long serialVersionUID = 6838714637432837899L;
+
+	/**
 	 * Constructs a {@code IllegalStateRuntimeException} with the specified detail message
 	 * 
 	 * @param detailMessage
