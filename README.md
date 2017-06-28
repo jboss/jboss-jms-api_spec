@@ -1,3 +1,22 @@
+JMS 2.0 API
+===========
+
+
+Building
+--------
+
+Prerequisites:
+
+* JDK 8 or newer - check `java -version`
+* Maven
+
+To build with your own Maven installation:
+
+    mvn install
+
+License
+-------
+
 Some portions of some of the accompanying files may be covered by
 the following copyright and license notice:
 
