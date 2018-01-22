@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>24</version>
+    <version>25</version>
   </parent>
 
   <groupId>org.jboss.spec.javax.jms</groupId>
@@ -84,6 +84,9 @@
             <manifest>
               <addDefaultSpecificationEntries>false</addDefaultSpecificationEntries>
             </manifest>
+            <manifestEntries>
+              <Automatic-Module-Name>beta.jboss.jms.api_2_0</Automatic-Module-Name>
+            </manifestEntries>
           </archive>
           <instructions>
             <Specification-Title>JSR-000343: Java(TM) Message Service (JMS) 2.0 API</Specification-Title>
