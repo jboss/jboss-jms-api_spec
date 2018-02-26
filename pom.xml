@@ -92,7 +92,6 @@
             <Specification-Title>JSR-000343: Java(TM) Message Service (JMS) 2.0 API</Specification-Title>
             <Specification-Vendor>Oracle</Specification-Vendor>
             <Specification-Version>2.0</Specification-Version>
-            <Implementation-Version>2.0.1</Implementation-Version>
             <!-- Set the package version to match the spec version -->
             <Export-Package>
               javax.jms*;version=2.0
@@ -120,7 +119,6 @@
               <Specification-Title>JSR-000343: Java(TM) Message Service (JMS) 2.0 API</Specification-Title>
               <Specification-Vendor>Oracle</Specification-Vendor>
               <Specification-Version>2.0</Specification-Version>
-              <Implementation-Version>2.0.1</Implementation-Version>
             </manifestEntries>
           </archive>
         </configuration>
